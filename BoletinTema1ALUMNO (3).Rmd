@@ -186,6 +186,12 @@ summary(cabbages)
 ```
     
     b.  Puedes determinar el número de valores perdidos (almacenados como **NA** en R) usando la función **is.na**. Determina el número de valores perdidos para cada una de las variables del conjunto **cabbages**.
+    
+```{r}
+any(is.na(cabbages))
+colSums(sapply(cabbages, is.na))
+```
+    
     c.  Repite los apartados anteriores con el conjunto de datos **Chile** del paquete **car**.
     d.  Utiliza la función **summary**, sobre **cabbages** y **Chile** y observa como, además de otros estadísticos, también devuelve el número de valores perdidos de cada variable.
 
