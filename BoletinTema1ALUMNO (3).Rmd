@@ -88,6 +88,12 @@ package.check <- lapply(packages, FUN = function(x) {
 <!-- -->
 
 a.  Mira la las características de ambos conjuntos usando la ayuda.
+
+```{r}
+mammals
+Animals2
+```
+
 b.  Usa las funciones **dim, head, tail, str** para una primera visión de los conjuntos de datos.
 c.  Muestra los nombres de las filas y las columnas (**rownames**, **colnames**)
 
