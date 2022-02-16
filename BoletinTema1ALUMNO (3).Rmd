@@ -140,20 +140,10 @@ setdiff(Animals2,mammals)
 
 ```
 
-e.  Determina las diferencias entre los animales que no aparecen en ambos conjuntos.
+f.  Determina las diferencias entre los animales que no aparecen en ambos conjuntos.
 
 ```{r}
-
-
-
-
-
-
-
-
-
-
-
+# La diferencia entre ellos son los valores de las dos variables categóricas que forman parte de las columnas del data, que son body y brain.
 
 ```
 
