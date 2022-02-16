@@ -95,6 +95,21 @@ Animals2
 ```
 
 b.  Usa las funciones **dim, head, tail, str** para una primera visión de los conjuntos de datos.
+
+```{r}
+# mammals
+dim(mammals)
+head(mammals)
+tail(mammals)
+str(mammals)
+
+# Animals2
+dim(Animals2)
+head(Animals2)
+tail(Animals2)
+str(Animals2)
+```
+
 c.  Muestra los nombres de las filas y las columnas (**rownames**, **colnames**)
 
 ```{r}
