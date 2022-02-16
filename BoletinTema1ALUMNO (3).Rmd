@@ -135,11 +135,8 @@ commonAnimals
 e.  Usa **setdiff** para averiguar qué animales no están en ambos conjuntos. ¿Cuántos son?. ¿Qué tipo de animales son?
 
 ```{r}
-
-
-
-
-
+setdiff(Animals2,mammals)
+# Son exactamente 3 animales, caracterizados por ser especies de dinosaurios
 
 ```
 
