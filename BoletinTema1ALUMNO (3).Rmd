@@ -193,6 +193,16 @@ colSums(sapply(cabbages, is.na))
 ```
     
     c.  Repite los apartados anteriores con el conjunto de datos **Chile** del paquete **car**.
+    
+```{r}
+dim(Chile)
+str(Chile)
+head(Chile)
+tail(Chile)
+glimpse(Chile)
+summary(Chile)
+```
+    
     d.  Utiliza la función **summary**, sobre **cabbages** y **Chile** y observa como, además de otros estadísticos, también devuelve el número de valores perdidos de cada variable.
 
 ```{r}
